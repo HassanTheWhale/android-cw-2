@@ -28,9 +28,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="353dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="416dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName" />
@@ -42,25 +42,54 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="284dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="357dp"
         android:ems="10"
         android:hint="Age"
         android:inputType="number" />
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="363dp"
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="22dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="412dp"
-        android:text="الرجاء إدخال البيانات التالية:"
-        android:textSize="24sp" />
+        android:layout_marginBottom="298dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="179dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="237dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
 
     <Button
         android:id="@+id/nextPage"
@@ -68,11 +97,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="69dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="70dp"
         android:background="@drawable/s"
-        android:textSize="20dp"
         android:text="التالي"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
 
 </RelativeLayout>
