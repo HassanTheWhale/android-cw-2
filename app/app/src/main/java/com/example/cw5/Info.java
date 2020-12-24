@@ -61,9 +61,9 @@ public class Info extends AppCompatActivity {
                 Intent call = new Intent(Intent.ACTION_SEND);
                 call.putExtra(Intent.EXTRA_EMAIL, email);
                 call.putExtra(Intent.EXTRA_SUBJECT, "Contact " + name);
-                call.putExtra(Intent.EXTRA_SUBJECT, "Write your message here");
-                call.setType("Text/plain");
-                startActivity(Intent.createChooser(call, "Send email: "));
+                call.putExtra(Intent.EXTRA_TEXT, "Write your message here");
+                call.setType("text/plain");
+                startActivity(Intent.createChooser(call, "Send email:"));
             }
         });
 
